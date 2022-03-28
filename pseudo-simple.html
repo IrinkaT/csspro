@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Selectors | :pseudo -Button</title>
+        <style>
+         body {
+             background-color: #222;
+         }
+         .call-for-action {
+             border: 1px dashed whitesmoke;
+             font-family: arial;
+             color: antiquewhite;
+             padding: 10px;
+         }
+         .btn {
+             background-color: transparent;
+             color: white;
+             font-size: 18px;
+             border: 2px solid white;
+             padding: 6px 12px 6px 12px;
+             border-radius: 20px;
+             margin-left:  6px;
+             margin-right: 6px;;
+             transition: 0.25s;
+             }
+             .btn:hover {
+              color: green;
+              border-color: greenyellow;   
+              background-color: #333;
+             }
+        </style>
+    </head>
+    <body>
+        <label class="call-for-action">
+            To start the training hit <button class="btn">this button</button>!
+        </label>
+    </body>
+</html>
