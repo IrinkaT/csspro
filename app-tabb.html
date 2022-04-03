@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<!---2 si 3 tab  dimensiunea punctelor sa se incadreze cum trebuie-->
+<head>
+    <meta charset="UTF-8">
+    <title>APP TAB EXAMPLE | PSEUDO</title>
+    <style>
+        .tabs {
+            list-style: none;
+            padding: 10px;
+            margin: 20px;
+
+        }
+
+        .tabs-item {
+            border: 1px solid #e6e6e6;
+            border-radius: 5px;
+            display: inline-block;
+            padding: 20px 10px;
+            margin: 5px;
+            text-align: center;
+            transition:  0.35;
+            height: 90px;
+            position: relative;
+        }
+         .tabs-item:hover {
+             background-color: #cccccc;
+         }
+
+        .tabs-img {
+            margin-bottom: 20px;
+        }
+        .tabs-link {
+           text-decoration: none; 
+           color: #333;
+         }
+         .tabs-options {
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 10px; 
+            background-color: #a6a6a6;
+            height: 35px;
+            width: 35px;
+            border-radius: 25px;
+            /* transform: translateX(70px) translateY(-110px); */
+            position: absolute;
+            right: 5px;
+            top: 5px;
+            opacity: 0.0;
+         }
+         .tabs-options:hover {
+            opacity: 1.0;
+         }
+    </style>
+</head>
+
+<body>
+    <ul class="tabs">
+        <li class="tabs-item"
+        title="access this account">
+            <a class="tabs-link" href="#">
+                <img 
+                class="tabs-img"
+               src="https://icons.iconarchive.com/icons/bokehlicia/captiva/48/web-github-icon.png" alt="">
+                <br />
+                username_here
+            </a>
+            <div class="tabs-options">.<br>.<br>.</div>
+
+        <li class="tabs-item"
+        title="access this account">
+            <a class="tabs-link" href="#">
+                <img 
+                class="tabs-img"
+               src="https://icons.iconarchive.com/icons/emey87/social-button/48/mail-icon.png" alt="">
+                <br />
+            Email_username</a><div class="tabs-options">.<br>.<br>.</div>
+        </li>
+        <li class="tabs-item"
+        title="access this account">
+            <a class="tabs-link" href="#">
+                <img 
+                class="tabs-img"
+               src="https://icons.iconarchive.com/icons/ebiene/e-commerce/48/shopping-bags-icon.png" alt="">
+                <br /> Shopping Online
+            </a>
+           <div class="tabs-options">.<br>.<br>.</div>
+        </li>
+    </ul>
+</body>
+
+</html>
